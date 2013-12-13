@@ -17,4 +17,4 @@ command -v npm > /dev/null 2>&1 || {
     echo "DONE"
 }
 
-sudo npm install -g hgrpull
+npm install -g hgrpull
