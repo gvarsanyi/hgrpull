@@ -66,7 +66,7 @@ fs.readdir '.', (err, dirs) ->
       maxlen = dir.length if maxlen < dir.length
 
   window.init list.length + 4
-  window.out 'Updating all services', 0, 0
+  window.out 'Running `hg pull -u` for all subdirectories with .hg', 0, 0
   update(item, id) for item, id in list
 
 logs = []

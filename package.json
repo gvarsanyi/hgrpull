@@ -1,0 +1,29 @@
+{
+  "name": "hgrpull",
+  "version": "0.1.0",
+  "description": "hg pulls and updates all subdirectories of the current working directory",
+  "main": "js/hgrpull.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gvarsanyi/hgrpull.git"
+  },
+  "bin": {
+    "hgrpull" : "./js/hgrpull.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "hg",
+    "mercurial",
+    "pull",
+    "update"
+  ],
+  "author": "Greg Varsanyi",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gvarsanyi/hgrpull/issues"
+  },
+  "homepage": "https://github.com/gvarsanyi/hgrpull"
+}
